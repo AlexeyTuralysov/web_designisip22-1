@@ -1,0 +1,31 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+.img_logo{
+    height: 100px;
+    width: 100px;
+
+}
+.a1{
+    background-color: green;
+    border: 3px solid green;
+    border-radius: 15px;
+    color: white;
+    padding: 3px;
+
+    
+}
+.logo, .name, .knot{
+    float: left;
+
+}
+.knot{
+    margin-top: 15px;
+    
+
+}
+.name{
+    width: 70%;
+    text-align: center;
+}

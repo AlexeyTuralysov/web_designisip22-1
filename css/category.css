@@ -1,0 +1,18 @@
+form{
+    padding: 10px;
+}
+input[type=submit]{
+    background-color: green;
+    font-size: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+    color: white;
+}
+
+footer, main, .left, .center, .right{
+    float: left;
+}
+
+nav, header, main{
+    width: 100%;
+}
