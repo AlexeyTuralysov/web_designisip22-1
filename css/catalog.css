@@ -1,0 +1,31 @@
+.left, .right{
+    width: 15%;
+
+}
+
+.center{
+    width: 70%;
+}
+
+.tovar{
+    width: 310px;
+    float: left;
+}
+.tovar_img{
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    
+    background-size: cover;
+    object-fit: cover;
+}
+.tovar_about{
+    padding: 10px;
+    width: 300px;
+}
+
+
+.tovar input{
+    background-color: #8685EF;
+    border: none;
+}

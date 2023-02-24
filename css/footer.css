@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+ 
 
-body{
-    margin: 0;
-}
 footer{
     background-color: #8685EF;
     display:flex;
@@ -10,6 +8,9 @@ footer{
     padding-left: 20%;
     padding-right: 20%;
     font-family: 'Rubik', sans-serif;
+    
+   
+  
 }
 .block p{
     font-family: 'Rubik', sans-serif;
