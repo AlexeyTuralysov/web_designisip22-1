@@ -2,17 +2,20 @@ form{
     padding: 10px;
 }
 input[type=submit]{
-    background-color: green;
+    background-color: #8685EF;
     font-size: 20px;
-    border: 2px solid green;
+    border: 2px solid white;
     border-radius: 10px;
     color: white;
 }
 
-footer, main, .left, .center, .right{
+ main, .left, .center, .right{
     float: left;
 }
 
 nav, header, main{
     width: 100%;
+}
+main{
+    min-height: 1000px;
 }
