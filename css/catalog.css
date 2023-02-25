@@ -1,3 +1,6 @@
+.desc{
+    min-height: 150px;
+}
 .left, .right{
     width: 15%;
 

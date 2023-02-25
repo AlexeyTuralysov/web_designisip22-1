@@ -1,5 +1,6 @@
 form{
     padding: 10px;
+    
 }
 input[type=submit]{
     background-color: #8685EF;
@@ -7,6 +8,10 @@ input[type=submit]{
     border: 2px solid white;
     border-radius: 10px;
     color: white;
+    padding: 5px;
+    width: 190px;
+    text-align: left;
+    
 }
 
  main, .left, .center, .right{
