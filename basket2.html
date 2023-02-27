@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="css/catalog.css">
     <script src="https://kit.fontawesome.com/267541ac27.js" crossorigin="anonymous"></script>
 
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/product_page.css">
+
     <title>Наушники</title>
 </head>
 <body style="margin: 0;">
@@ -61,6 +67,9 @@
         
     </nav>
 
+
+
+
     <main>
         <section class="left">
             <form action="cart1.html">
@@ -78,73 +87,44 @@
             <form action="cart5.html">
                 <input type="submit" value="Микшеры">
             </form>
-
-
+    
+    
         </section>
     
         <section class="center">
-            <h2>Наушники</h2>
-            <div class="tovar">
-                <div class="tovar_img">
-                    <img src="img/3224.webp" class="tovar_img" alt="tovar_img">
+            <div class="block_tovara">
+                <div class="tovar_img2">
+                    <img id="image" src="https://img.mvideo.ru/Pdb/50049652b.jpg" class="tovar_img2 main_gal" alt="tovar_img">
+                    <img src="https://img.mvideo.ru/Pdb/50049652b.jpg" class="tovar_img3 main_gal" alt="tovar_img">
+                    <img src="https://doctorhead.ru/upload/resize_cache/webp/upload/iblock/e26/marshall_monitor_2_anc_1.webp" class="tovar_img3 main_gal" alt="tovar_img">
+                    <img src="https://www.allfordj.ru/upload/iblock/6f2/marshall_monitor_black_0.jpg" class="tovar_img3 main_gal" alt="">
                 </div>
-    
-                <div class="tovar_about">
-                    <h3>MARSHALL Major 4</h3>
-                    <p>Цена: 17 999 руб</p>
-                    <div class="desc">
-                        <p>ФИРМЕННЫЙ ЗВУК, <br>80+ ЧАСОВ БЕСПРОВОДНОЙ ИГРЫ, БЕСПРОВОДНАЯ ЗАРЯДКА</p>
-                    </div>
-                    
-                    <form action="basket1.html">
-                        <input type="submit" value="Подробнее">
+        
+                <div class="main-about">
+        
+                
+                <div class="tovar_about2">
+                    <h2>MARSHALL monitor</h2>
+                    <p>Цена: 27 999руб</p>
+                    <p>Тип: проводная гарнитура</p>
+                    <p>Модель: Marshall monitor</p>
+                    <p>Длина кабеля: 1.2 м</p>
+                </div>
+                <div class="tovar_about2">
+                    <h3>Описание</h3>
+                    <p>Наушники MARSHALL Monitor черного цвета с золотистыми вставками изготовлены по закрытому акустическому типу. Модель имеет охватывающее оголовье удобной анатомической формы. Мягкие амбушюры герметично прижимают динамики, что способствует эффективной шумоизоляции. Динамические мембраны большого диаметра в 40 мм способствуют производству ясного и глубокого звука</p>
+                    <form action="tovar1.html">
+                        <input type="submit" value="купить">
                     </form>
                 </div>
-            </div>
-    
-            <div class="tovar">
-                <div class="tovar_img">
-                    <img src="img/obzor-marshall-monitor-ii.jpg" class="tovar_img" alt="tovar_img">
-                </div>
-    
-                <div class="tovar_about">
-                    <h3>MARSHALL monitor</h3>
-                    <p>Цена: 27 999 руб</p>
-                    <div class="desc">
-                        <p>АКТИВНОЕ ШУМОПОДАВЛЕНИЕ, КУЛЬТОВЫЙ ЗВУК</p>
-                    </div>
-                    
-                    <form action="basket2.html">
-                        <input type="submit" value="Подробнее">
-                    </form>
                 </div>
             </div>
-
-            <div class="tovar">
-                <div class="tovar_img">
-                    <img src="img/58113.750.jpg" class="tovar_img" alt="tovar_img">
-                </div>
-    
-                <div class="tovar_about">
-                    <h3>Sony MDR-750</h3>
-                    <p>Цена: 20 000 руб</p>
-                   <div class="desc"> 
-                    <p>получайте громкий и четкий звук на любой домашней системе или портативном устройстве благодаря высокой чувствительности</p>
-                   </div>
-                    <form action="basket3.html">
-                        <input type="submit" value="Подробнее">
-                    </form>
-                </div>
-            </div>
-
-           
-
-            
         </section>
     
         <section class="right">
             
         </section>
+       
     </main>
 
 
@@ -192,5 +172,8 @@
 
         
     </footer>
+
+    <script src="js/gal.js"></script>
+    
 </body>
 </html>
