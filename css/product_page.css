@@ -1,0 +1,52 @@
+form{
+    padding: 10px;
+}
+input[type=submit]{
+    background-color: #8685EF;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    height: 60px;
+    width: 200px;
+    
+}
+
+
+.block_tovara{
+    width: 1000px;
+    float: left;
+    margin-left: 10%;
+    }
+    
+    .tovar_img2{
+    padding: 5px;
+    width: 500px;
+    height: 500px;
+    float: left;
+    }
+    .tovar_img3{
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    transition: 0.1s;
+    }
+    
+    .tovar_img3:hover{
+        border: 2px solid slateblue;
+    }
+    .tovar_about2{
+        
+        padding: 10px;
+        width: 470px;
+        float: left;
+    }
+    .tovar_about2 h2{
+        font-weight: bold;
+    }
+    .main-about{
+        padding-left: 60%;
+    }
