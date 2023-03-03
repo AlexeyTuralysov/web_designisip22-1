@@ -11,7 +11,13 @@
     <link rel="stylesheet" href="css/catalog.css">
     <script src="https://kit.fontawesome.com/267541ac27.js" crossorigin="anonymous"></script>
 
-    <title>Микшеры</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/product_page.css">
+
+    <title>Наушники</title>
 </head>
 <body style="margin: 0;">
     <header>
@@ -19,7 +25,7 @@
             <img class="img_logo" src="img/Varnilosa.png" alt="">
         </div>
 
-        <div class="name">Varnilo - Интернет магазин студийной аппаратуры</div>
+        <div class="name">Varnilo - нтернет магазин студийной аппаратуры</div>
 
     
 
@@ -61,6 +67,9 @@
         
     </nav>
 
+
+
+
     <main>
         <section class="left">
             <form action="cart1.html">
@@ -78,63 +87,42 @@
             <form action="cart5.html">
                 <input type="submit" value="Микшеры">
             </form>
-
-
+    
+    
         </section>
     
         <section class="center">
-            <h2>Микшеры</h2>
-            <div class="tovar">
-                <div class="tovar_img">
-                    <img src="https://pop-music.ru/upload/resize_cache/iblock/dfd/417_378_1/dfdac05ca9077ba3746f90c87892154b.jpg" class="tovar_img" alt="tovar_img">
+            <div class="block_tovara">
+                <div class="tovar_img2">
+                    <img id="image" src="Регуляторы: тона, громкости, усиления и питания Входы: 1/4" гитарный Выход для наушников: 1/4"" class="tovar_img2 main_gal" alt="tovar_img">
+                    
                 </div>
-    
-                <div class="tovar_about">
-                    <h3>NORDFOLK NCM-6DSP</h3>
-                    <p>Цена: 11 990 руб</p>
-                    <p>Качественый звук</p>
-                    <form action="basket14.html">
-                        <input type="submit" value="Подробнее">
+        
+                <div class="main-about">
+        
+                
+                <div class="tovar_about2">
+                    <h2>FENDER MINI 57 TWIN-AMP</h2>
+                    <p>Цена: 8 000 руб</p>
+                    <p>Тип: проводная гарнитура</p>
+                    <p>Модель: NT1-A</p>
+                    
+                </div>
+                <div class="tovar_about2">
+                    <h3>Описание</h3>
+                    <p>Регуляторы: тона, громкости, усиления и питания Входы: 1/4" гитарный Выход для наушников: 1/4"</p>
+                    <form action="tovar1.html">
+                        <input type="submit" value="купить">
                     </form>
                 </div>
-            </div>
-    
-            <div class="tovar">
-                <div class="tovar_img">
-                    <img src="https://pop-music.ru/upload/resize_cache/iblock/035/417_378_1/spdnphmmxwlbf6436colx0u3gej11in2.jpg" class="tovar_img" alt="tovar_img">
-                </div>
-    
-                <div class="tovar_about">
-                    <h3>KALI GEMINI GEM-12USB</h3>
-                    <p>Цена: 12 141 руб</p>
-                    <p>DJ Оценит</p>
-                    <form action="tovar.html">
-                        <input type="submit" value="Подробнее">
-                    </form>
                 </div>
             </div>
-
-            <div class="tovar">
-                <div class="tovar_img">
-                    <img src="https://pop-music.ru/upload/resize_cache/iblock/a3e/417_378_1/a3e264afb5186c7498ec5a19d1577502.jpg" class="tovar_img" alt="tovar_img">
-                </div>
-    
-                <div class="tovar_about">
-                    <h3>MACKIE ProFX10v3</h3>
-                    <p>Цена: 34 700 руб</p>
-                    <p>Для Pro</p>
-                    <form action="tovar.html">
-                        <input type="submit" value="Подробнее">
-                    </form>
-                </div>
-            </div>
-
-
         </section>
     
         <section class="right">
             
         </section>
+       
     </main>
 
 
@@ -182,5 +170,8 @@
 
         
     </footer>
+
+    <script src="js/gal.js"></script>
+    
 </body>
 </html>
